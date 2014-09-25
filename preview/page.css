@@ -19,23 +19,6 @@ div#templateDivInner {
   width: 320px;
 }
 
-div#headerText {
-  height: 122px;
-  background-image: url('http://bl-template-assets.s3-website-us-east-1.amazonaws.com/scissors.png');
-  background-size: 320px 124px;
-  background-repeat: no-repeat;
-  background-color: ${bg_color};
-  overflow: hidden;
-}
-
-div#headerTextInner {
-  padding: 23px 0 0 20px; 
-}
-
-div#headerTextInner p {
-  margin: 0 0 5px 0; 
-}
-
 div#bodyDiv {
   height: 157px;
 }
@@ -171,18 +154,25 @@ div#templateDiv.tablet-version {
   width: 630px;
 }
 
-.tablet-version div#headerText {
-  height: 200px;
-  background-size: 600px 202px;
-}
-
 .tablet-version div#bodyDiv {
-  height: 277px;
+  height: 200px;
 }
 
-.tablet-version div#bodyDiv div#bodyText p {
+.tablet-version div#bodyDiv div#bodyText>p {
   width: 300px;
   line-height: 40px;
+}
+
+.tablet-version div#bodyDiv div#priceDiv {
+  width: 200px;
+  height: 49px;
+  background: ${highlight_color};
+  text-align: center;
+  margin: 0;
+}
+
+.tablet-version div#details ul {
+  width: 500px;
 }
 
 .tablet-version div#overlay div#tagImage {
