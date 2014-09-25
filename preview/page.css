@@ -54,6 +54,7 @@ div#bodyDiv div#priceDiv p {
   font-size: 18px;
   line-height: 49px;
   margin: 0;
+  text-align: center;
 }
 
 div#bodyDiv #imageDiv {
@@ -117,21 +118,12 @@ div#overlay {
   padding-top: 24px;
 }
 
+div#overlay #overlayInner {
+  padding-top: 259px;
+}
+
 div#overlay p {
   text-align: center;
-}
-
-div#overlay div#tagImage {
-  position: absolute;
-  top: 23px;
-  right: 17px;
-  width: 43px;
-  height: 28px;
-  background-image: url('http://bl-template-assets.s3-website-us-east-1.amazonaws.com/offer_tag.png');
-  background-size: 43px 28px;
-}
-
-div#overlay p {
   color: white;
 }
 
@@ -155,7 +147,7 @@ div#templateDiv.tablet-version {
 }
 
 .tablet-version div#bodyDiv {
-  height: 200px;
+  height: 270px;
 }
 
 .tablet-version div#bodyDiv div#bodyText>p {
@@ -169,6 +161,10 @@ div#templateDiv.tablet-version {
   background: ${highlight_color};
   text-align: center;
   margin: 0;
+}
+
+.tablet-version div#details {
+  height: 204px;
 }
 
 .tablet-version div#details ul {
