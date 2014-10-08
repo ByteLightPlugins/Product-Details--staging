@@ -2,7 +2,7 @@ var appSelector = '#template_' + APP.appId;
 
 $(appSelector + ' #buttonText').on('click', function() {
   $(appSelector + ' #overlay').css('display', 'block');
-  JSNativeCom.sendEventToNative('OFFER_SAVED');
+//  JSNativeCom.sendEventToNative('OFFER_SAVED');
 })
 
 BL.addTemplateResetFunction(function() {
